@@ -1,0 +1,41 @@
+*,::after::before{
+    box-sizing: border-box;
+    line-height: 1.5;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color: darkseagreen;
+    font-family: "Open Sans", serif;
+}
+.card{
+    background-color: blueviolet;
+    width: 600px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 60px;
+}
+.title{
+    margin-bottom: 20px;
+} 
+.name{
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+strong{
+    color: white;
+}
+discription{
+    margin-bottom: 20px;
+}
+button{
+    color: plum;
+    font-weight: 600;
+    border: solid black;
+    border-radius: 5px;
+    padding: 7px 15px;
+    
+
+}
